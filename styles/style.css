@@ -136,7 +136,6 @@
 
 .card__title {
   padding: 4px 10px;
-
   font-size: inherit;
   font-variation-settings: "wght" var(--bold-wght, 700);
   line-height: normal;
@@ -298,6 +297,10 @@
   font-weight: 400;
   line-height: 90%;
   mix-blend-mode: difference;
+}
+
+.button__text-uppercase {
+  text-transform: uppercase;
 }
 
 .footer__save-button {
